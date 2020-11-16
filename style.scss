@@ -1,0 +1,141 @@
+/*!
+Theme Name: CC Com 2020
+Theme URI: http://underscores.me/
+Template: cc-starter-theme
+Author: Chance Corbeil
+Author URI: https://chancecorbeil.com/
+Description: Chance com child theme
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: ccstartertheme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+*/
+
+// Import Parent Styles
+@import "../cc-starter-theme/style";
+
+
+// Table Of Contents
+// Colors
+// Sass Variables
+// General
+// Titles
+// Header
+// Footer
+// Home Page
+// Page Template
+// Sidebar
+// Main Content Area
+// Page Particle
+// Buttons
+// Navigation
+// Hero Template
+// Screen Size Break Points
+
+
+.page-template-template-cccom-homepage header,
+.page-template-template-cccom-homepagewsidebar header {
+	display: none;
+}
+
+.homesection {
+
+	padding-top: 25px;
+	padding-bottom: 25px;
+
+	h1.title.is-1 {
+		text-align: left;
+		margin-bottom: 10px;
+	}
+}
+
+.panel-block {
+    background-color:$white;
+}
+
+.panel.simplepanel {
+	border-radius: 0;
+	box-shadow: none;
+	position: relative;
+	top: -7px;
+
+	.panel-block:last-child {
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
+}
+
+.resume {
+
+	.container {
+		background-color: $white;
+		padding: 2rem 35px;
+	}
+
+	hr {
+		margin-bottom: 0;
+	}
+
+	.seeclients {
+		font-weight: 500;
+		background-color: $secondary;
+		color: $secondary-invert;
+	}
+
+	a {
+		color: $accent;
+	}
+}
+
+.resumebutton {
+	background-color: $secondary;
+}
+
+ .box .card-content {
+    padding: 1.5rem 1.5rem 0;
+}
+
+section.section.shortsection {
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.testimonial {
+
+	.quotemarks {
+		font-family: $family-1 !important;
+		font-size: 3em;
+		top: 35px;
+		line-height: 0;
+		position: relative;
+		color: $primary;
+	}
+
+	.testimonialquote {
+		font-weight: 600;
+		line-height: 1.3em;
+    padding-bottom: 12px;
+	}
+
+}
+
+.starinfooter {
+	top: 2px;
+	position: relative;
+}
+
+.socialinfooter {
+	opacity: 0.3;
+}
+
+.footer {
+	background-color: $purple1ldarkest !important;
+}
+
+
