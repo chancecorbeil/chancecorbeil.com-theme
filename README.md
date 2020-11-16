@@ -1,3 +1,4 @@
-# cc-starter-theme
- 
-A wordpress starter theme built with Underscrores and Bulma.
+# chancecorbeil.com-theme
+A theme for chancecorbeil.com
+
+This is a child theme that uses CC Starter Theme as a parent theme.
